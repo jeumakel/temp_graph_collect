@@ -1,7 +1,7 @@
 #FROM arm32v7/python:slim
 FROM arm32v6/python:alpine3.7
 
-WORKDIR /home/pi/projects/temp_graph_collect
+WORKDIR /usr/share/app
 
 #RUN apt-get update && apt-get install --no-install-recommends -y \
 #	python3-pip && \ 
